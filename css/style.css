@@ -1,3 +1,38 @@
+/* || IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* || GENERAL */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #121212;
+}
+
+/* || HEADER */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  width: 100vw;
+}
+
+#header-title {
+  padding: 1rem;
+  margin: 1rem;
+
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  font-weight: 100;
+  color: white;
+}
+
 #grid {
   display: flex;
   flex-wrap: wrap;
@@ -5,6 +40,11 @@
   /* Grid square width multiplied by 16 */
   height: 800px;
   /* Grid square height multiplied by 16 */
+
+  padding: 1rem;
+  margin: 1rem;
+
+  background-color: white;
 }
 
 .gridSquare {
