@@ -41,6 +41,19 @@ body {
   font-weight: 100;
 }
 
+/* || BUTTONS */
+
+#buttons {
+  margin: 1rem;
+}
+
+#grid-size-button {
+  padding: 0.25em 1em;
+
+  border-style: none;
+  border-radius: 6px;
+}
+
 /* || MAIN */
 
 #grid {
@@ -51,8 +64,7 @@ body {
   height: 800px;
   /* Grid square height multiplied by 16 */
 
-  padding: 1rem;
-  margin: 1rem;
+  margin-bottom: 1rem;
 
   background-color: white;
 }
